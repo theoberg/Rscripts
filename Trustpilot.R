@@ -70,7 +70,7 @@ print(paste('Page: ', page_result, ' of ', no_pages ))
 readline(prompt='When you\'re ready, press [enter] to continue to Google Sheets and translate the copied text')
 
 write_clip(reviews$review)
-browseURL('https://docs.google.com/spreadsheets/d/1C74VU5yBTEGlCL-agcDpRrEhkeYhiQfC6h1AeYNDX-0/edit#gid=0')
+browseURL('https://sheets.new')
 
 readline(prompt='When you\'ve copied the translated text, press [enter] to continue or [esc] to end')
 
